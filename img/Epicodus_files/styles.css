@@ -3,7 +3,7 @@
   text-transform: uppercase;
 }
 
-#track1, #track2, #track3, #notEpicodusDiv{
+#track1, #track2, #track3, #notEpicodus{
   display: none;
 }
 .panel {
