@@ -15,110 +15,100 @@
       <div class="row">
         <div class="col-md-3">
           <h3 class="panel">Take this brief survey to insantly see which track we believe you should consider.</h3>
-          <form id="question1">
-            <div class="form-group disabled">
+          <form id="formOne" action="index.html" method="post">
+            <div class="form-group panel">
               <div class="radio">
                 <h4>1. How do you feel about working in pairs or small groups?</h4>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input id="epicodus" type="radio" name="optionsRadios1" value="option1" checked>
                   "I work great with others."
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input id="epicodus-also" type="radio" name="optionsRadios1" value="option2" checked>
                   "Most times I like working with others but sometimes its nice to fly solo."
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input id="notEpicodus" type="radio" name="optionsRadios1" value="option3" checked>
                   "I've never enjoyed working with others. Much better off on my own.""
                 </label>
               </div>
             </div>
-          </form>
-          <form id="question2">
-            <div class="form-group disabled">
+            <div class="form-group panel">
               <div class="radio">
-                <h4>Which potential employer seems most appealing to you?</h4>
+                <h4>2. Which potential employer seems most appealing to you?</h4>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option1" checked>
                   A company focused in Android development or high-performance applications
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                <input type="radio" name="optionsRadios2" id="optionsRadios2" value="option2" checked>
                   A large company that focuses on business software development
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input type="radio" name="optionsRadios2" id="optionsRadios3" value="option3" checked>
                   A start-up looking to develop product quickly.
                 </label>
               </div>
             </div>
-          </form>
-          <form id="question3">
-            <div class="form-group disabled">
+            <div class="form-group panel">
               <div class="radio">
-                <h4>Are there any tracks schedules that <span class="boldCaps">absolutely</span> will not work for you?</h4>
+                <h4>3.Are there any tracks schedules that <span class="boldCaps">absolutely</span> will not work for you?</h4>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input id="java" type="radio" name="optionsRadios3" value="option1" checked>
                   May 22, 2017 through December 1, 2017
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input id="c#" type="radio" name="optionsRadios3" value="option2" checked>
                   June 26, 2017 through December 1, 2018
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input id="ruby" type="radio" name="optionsRadios3" value="option3" checked>
                   July 31, 2017 through December 1, 2018
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input id="all" type="radio" name="optionsRadios3" value="option4" checked>
                   "I can make any of these fit into my schedule."
                 </label>
               </div>
             </div>
-          </form>
-          <form id="question4">
-            <div class="form-group disabled">
+            <div class="form-group panel">
               <div class="radio">
                 <h4>Which Epicodus location are you considering?</h4>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input type="radio" name="optionsRadios4" value="option1" checked>
                   Seattle
                 </label>
                 <br>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input type="radio" name="optionsRadios4" value="option2" checked>
                   Portland
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input type="radio" name="optionsRadios4" value="option3" checked>
                   "Either one is fine with me."
                 </label>
               </div>
             </div>
-          </form>
-          <form id="question5">
-            <div class="form-group disabled">
+            <div class="form-group panel">
               <div class="radio">
                 <h4>How did you hear about Epicodus?</h4>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input type="radio" name="optionsRadios5" value="option1" checked>
                   "A friend told me about Epicodus."
                 </label>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input type="radio" name="optionsRadios5" value="option2" checked>
                   Google
                 </label>
                 <br>
                 <label>
-                  <input type="radio" name="operator" value="add" checked>
+                  <input type="radio" name="optionsRadios5" value="option3" checked>
                   None
                 </label>
               </div>
             </div>
             <button type="Submit" class="btn btn-primary">Submit</button>
           </form>
-
-
         </div>
         <div class="col-md-9">
           <p>
@@ -145,7 +135,7 @@
           RUBY IS THE TRACK FOR YOU!
 
         </div>
-        <div class="track4">
+        <div id="notEpicodus">
           MAYBE EPICODUS IS NOT THE BEST FIT FOR YOU BUT BEST OF LUCK IN YOUR JOURNEY.
 
         </div>
