@@ -17,3 +17,9 @@
 body {
   background-image: url("../img/pair-programing.png")
 }
+img#high5 {
+  padding: 1%;
+  float:left;
+
+}
+}
