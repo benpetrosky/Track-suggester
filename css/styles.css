@@ -10,3 +10,10 @@
   background-color: grey;
 
 }
+.general-info {
+  font-family: monospace;
+}
+
+body {
+  background-image: url("../img/pair-programing.png")
+}
