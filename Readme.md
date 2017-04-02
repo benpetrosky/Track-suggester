@@ -16,7 +16,7 @@ open index.html in text editor
 
 ## Known Bugs
 
-unfinished javascript does not properly generate a track suggestion upon clicking submit.
+There are no known bugs within this webpage.
 
 ## Support and contact details
 
