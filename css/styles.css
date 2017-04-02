@@ -5,24 +5,22 @@
 
 #track1, #track2, #track3, #notEpicodusDiv, #ruby-schedule-issue, #csharp-schedule-issue, #java-schedule-issue{
   display: none;
+  color: red;
+  font-weight: bold;
 }
 .response {
   background-color: blue;
 }
 .panel {
   background-color: grey;
-
 }
 .general-info {
   font-family: monospace;
 }
-
 body {
   background-image: url("../img/pair-programing.png")
 }
 img#high5 {
   padding: 1%;
   float:left;
-
-}
 }
