@@ -3,8 +3,11 @@
   text-transform: uppercase;
 }
 
-#track1, #track2, #track3, #notEpicodusDiv{
+#track1, #track2, #track3, #notEpicodusDiv, #ruby-schedule-issue, #csharp-schedule-issue, #java-schedule-issue{
   display: none;
+}
+.response {
+  background-color: blue;
 }
 .panel {
   background-color: grey;
